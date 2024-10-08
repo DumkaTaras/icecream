@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+$background-color:#FFB8CA;
+$text-color:#D41443;
+$btn-color:#FFFFFF;
+$purple-row:#FFA5BA;
+$p-color-title:#FFA5BA;
+$line-color: #907E82;
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width:1200px) {
+    .burger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .burger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: $li-color;
+        transition: all 0.3s ease;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
