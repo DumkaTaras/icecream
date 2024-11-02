@@ -1,0 +1,181 @@
+@import './s';
+
+.header {
+    background-color: $background-color;
+    width: full;
+    padding-top: 40px;
+    padding-left: 50px;
+    .header-wrap {
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+
+        .menu {
+            gap: 35px;
+            align-items: center;
+
+            &-el:nth-child(1) {
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                color: $text-color;
+            }
+
+            &-el {
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                color: $btn-color;
+            }
+        }
+
+        .button-header {
+            background-color: $btn-color;
+            border-radius: 30px;
+            padding-top: 15px;
+            padding-left: 70px;
+            height: 40px;
+            width: 140px;
+            margin-right: 150px;
+            &:hover{
+                background-color: $btn-color;
+                opacity: 80%;
+            }
+
+            a {
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                color: $text-color;
+            }
+        }
+    }
+
+    .header-elements {
+        margin-top: 90px;
+        padding-left: 115px;
+
+        .header-h-elements {
+            justify-content: space-between;
+            .header-h1 {
+                font-family: "Titan One", sans-serif;
+                font-weight: 400;
+                font-size: 38px;
+                width: 300px;
+                color: $btn-color;
+                text-transform: uppercase;
+
+                &::after {
+                    content: ' passion';
+                    font-size: 58px;
+                    color: $text-color;
+                    text-transform: uppercase;
+                }
+            }
+            .time16-23{
+                padding-right: 150px;
+                flex-direction: column;
+                gap: 80px;
+                .el h4{
+                    font-family: "Titan One", sans-serif;
+                    font-size: 46px;
+                    font-weight: 400;
+                    color: $text-color;
+                }
+                .el p{
+                    font-family: "DM Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $btn-color;
+                    text-align: center;
+                }
+                .time16-23-row{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: $btn-color;
+                    margin-top: -75px;
+                    margin-left:40px;
+                }
+            }
+        }
+
+        .buttons2-header {
+            margin-top: 25px;
+            gap: 15px;
+
+            .button1 {
+                background-color: $text-color;
+                border-radius: 20px;
+                width: 100px;
+                padding: 10px;
+                &:hover{
+                    opacity: 80%;
+                }
+
+                a {
+                    font-family: "DM Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $btn-color;
+                    padding-left: 20px;
+                }
+            }
+
+            .button2 {
+                background-color: $btn-color;
+                border-radius: 20px;
+                width: 130px;
+                padding: 10px;
+                &:hover{
+                    opacity: 80%;
+                }
+
+                a {
+                    font-family: "DM Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $text-color;
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        .milk {
+            margin-top: 50px;
+            margin-left: -40px;
+            align-items: center;
+            gap: 30px;
+
+            .p-lorem-head {
+                width: 195px;
+                color: $btn-color;
+                margin-top: 30px;
+            }
+
+            .arrow-right {
+                padding-top: 20px;
+            }
+        }
+
+        .purple-row {
+            width: 532px;
+            height: 532px;
+            background-color: $purple-row;
+            border-radius: 50%;
+            margin-top: -607px;
+            margin-left: 360px;
+        }
+
+        .icecream {
+            margin-top: -416px;
+            margin-left: 500px;
+
+        }
+
+        .woman {
+            margin-top: -235px;
+            margin-left: 740px;
+        }
+    }
+}

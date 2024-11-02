@@ -1,0 +1,73 @@
+@import './s';
+footer {
+    background-color: #FFF5F6;
+
+    .foot-elements {
+        gap: 400px;
+        align-items: center;
+        padding-bottom: 100px;
+
+        .foot-text {
+            h4 {
+                color: $p-color-title;
+                font-family: "Titan One", sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                line-height: 66px;
+            }
+
+            h2 {
+                font-family: "Titan One", sans-serif;
+                font-size: 58px;
+                color: $text-color;
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+        }
+
+        .foot-programs {
+            .programs {
+                gap: 24px;
+                justify-content: end;
+
+                .program {
+                    img {
+                        text-align: center;
+                        padding-top: 20px;
+                    }
+                }
+            }
+
+            .foot-p {
+                margin-top: 50px;
+                text-align: center;
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 29.76px;
+                letter-spacing: 0.04em;
+                color: black;
+                &::after {
+                    content: '+61 (0) 383 766 284';
+                    color: $text-color;
+                }
+            }
+        }
+    }
+
+    .foot-line {
+        width: full;
+        height: 1px;
+        background-color: $line-color;
+    }
+
+    p {
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 39.76px;
+        color: $line-color;
+    }
+}
