@@ -179,6 +179,35 @@ main {
                 }
             }
         }
+        .modal{
+            width: 300px;
+            height: 300px;
+            background-color: $background-color;
+            .modal-element{
+                .video{
+                    padding-top: 20px;
+                }
+                .flex-el{
+                    padding-top: 20px;
+                    display: flex;
+                    padding-bottom: 10px;
+                    padding-left: 30px;
+                    button{
+                        margin-right: 20px;
+                    }
+                }
+            .close{
+                float: right;
+                cursor: pointer;
+                &:hover{
+                    color: rgb(191, 13, 13);
+                }
+            }
+            .more-info{
+                color: $text-color;
+            }
+            }
+        }
     }
 
     .section3 {
