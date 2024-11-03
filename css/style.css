@@ -1526,7 +1526,7 @@ main .section2 .modal {
   width: 300px;
   height: 300px;
   background-color: #FFB8CA;
-  display: none;
+  display: none !important;
 }
 main .section2 .modal .modal-element .video {
   padding-top: 20px;
